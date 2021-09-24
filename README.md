@@ -24,3 +24,4 @@
 # maybe read the business file first, get x number of businesses for each state and then fetch the reviews 
 # and users for those businesses?
 
+yelp_database_creation.ipynb creates the MySQL database and makes some plots of reviews/review stars per state, from the query: state_reviews.sql
