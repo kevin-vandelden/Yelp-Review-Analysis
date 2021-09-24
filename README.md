@@ -17,11 +17,15 @@ DOWNLOAD MySQL Community Server https://dev.mysql.com/downloads/mysql/
 DOWNLOAD MySQL Workbench https://dev.mysql.com/downloads/workbench/
 
 ######### IDEAS/OPTIMIZATIONS #############
-some immediate optimizations that come to mind would be matching review/business/user records and then
-limiting the results for computation speed afterwards. 
+
+- some immediate optimizations that come to mind would be matching review/business/user records and then limiting the results for computation speed afterwards. 
 Right now i'm just reading the first x lines of the file and getting whatever records match across the board
 
-maybe read the business file first, get x number of businesses for each state and then fetch the reviews 
-and users for those businesses?
+- maybe read the business file first, get x number of businesses for each state and then fetch the reviews 
+and users for those businesses
+- or re-ordering the review-file so that the first x lines I write to the db comprises an even split per state.
 
 yelp_database_creation.ipynb creates the MySQL database and makes some plots of reviews/review stars per state, from the query: state_reviews.sql
+
+![alt text](https://github.com/kevin-vandelden/Yelp-Review-Analysis/blob/main/reviews_per_state.png?raw=true)
+![alt text](https://github.com/kevin-vandelden/Yelp-Review-Analysis/blob/main/low_reviews_per_state.png?raw=true)
