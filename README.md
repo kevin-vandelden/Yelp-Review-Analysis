@@ -10,11 +10,11 @@ proving not to have copied someone elses analysis, as well as have some comedic 
 
 the yelp dataset is available for download for personal, educational and academic purposes
 and is comprised of JSON files of reviews, businesses, users, and others
-https://www.yelp.com/dataset
+- https://www.yelp.com/dataset
 
 The project also involves using a MYSQL database, and those links and instructions are available here: 
-DOWNLOAD MySQL Community Server https://dev.mysql.com/downloads/mysql/
-DOWNLOAD MySQL Workbench https://dev.mysql.com/downloads/workbench/
+- DOWNLOAD MySQL Community Server https://dev.mysql.com/downloads/mysql/
+- DOWNLOAD MySQL Workbench https://dev.mysql.com/downloads/workbench/
 
 ######### IDEAS/OPTIMIZATIONS #############
 
