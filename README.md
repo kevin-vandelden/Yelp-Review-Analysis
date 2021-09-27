@@ -24,6 +24,7 @@ Right now i'm just reading the first x lines of the file and getting whatever re
 - maybe read the business file first, get x number of businesses for each state and then fetch the reviews 
 and users for those businesses
 - or re-ordering the review-file so that the first x lines I write to the db comprises an even split per state.
+- word cloud generation for specified category/attribute of business
 
 yelp_database_creation.ipynb creates the MySQL database and makes some plots of reviews/review stars per state, from the query: state_reviews.sql
 
