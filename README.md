@@ -27,6 +27,8 @@ and users for those businesses
 - or re-ordering the review-file so that the first x lines I write to the db comprises an even split per state.
 - word cloud generation for specified category/attribute of business
 - read in weather data from an API and see if there's correlation between weather and review
+ - - cost restraints on API might make historical API calling undo-able via API, various historical datasets available
+ - - could use API to see "what city is best/worst for placing an order right now based on correlation found?
 
 yelp_database_creation.ipynb creates the MySQL database and makes some plots of reviews/review stars per state, from the query: state_reviews.sql
 
