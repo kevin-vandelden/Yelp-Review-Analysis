@@ -1,4 +1,5 @@
-## Kevin VanDelden
+## Author: Kevin VanDelden
+contact: kevinrvandelden@gmail.com
 
 The general purpose of this project is to create a database of yelp reviews to query off of
 and show proficiency in Python, SQL, and various methods of analysis.
@@ -16,7 +17,7 @@ The project also involves using a MYSQL database, and those links and instructio
 - DOWNLOAD MySQL Community Server https://dev.mysql.com/downloads/mysql/
 - DOWNLOAD MySQL Workbench https://dev.mysql.com/downloads/workbench/
 
-######### IDEAS/OPTIMIZATIONS #############
+## IDEAS/OPTIMIZATIONS ##
 
 - some immediate optimizations that come to mind would be matching review/business/user records and then limiting the results for computation speed afterwards. 
 Right now i'm just reading the first x lines of the file and getting whatever records match across the board
