@@ -32,7 +32,7 @@ and users for those businesses
 - word cloud generation for specified category/attribute of business
 - read in weather data from an API and see if there's correlation between weather and review
 - - Calling historic weather data for specific dates/locations would most likely require a paid-for API subscription
-- - alternatively could use API to see "what city is best/worst for placing an order right now based on correlation found? (current weather data is more commonly available via API)
+- - alternatively could use API to see "what city is best/worst for placing an order right now?" based on correlation found (current weather data is more commonly available via API)
 
 yelp_database_creation.ipynb creates the MySQL database and makes some plots of reviews/review stars per state, from the query: state_reviews.sql
 
