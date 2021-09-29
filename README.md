@@ -1,5 +1,6 @@
 ## Author: Kevin VanDelden
-contact: kevinrvandelden@gmail.com
+Contact: kevinrvandelden@gmail.com
+LinkedIn: https://www.linkedin.com/in/kevin-vandelden/
 
 The general purpose of this project is to create a database of yelp reviews to query off of
 and show proficiency in Python, SQL, and various methods of analysis.
